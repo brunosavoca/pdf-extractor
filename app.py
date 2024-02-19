@@ -1,5 +1,5 @@
 import streamlit as st
-from PyMyPDF import fitz  # PyMuPDF
+import fitz  # PyMuPDF
 from io import BytesIO
 
 def extract_text_from_pdf(pdf_file):
